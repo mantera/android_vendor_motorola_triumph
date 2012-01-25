@@ -1,0 +1,10 @@
+This repo hosts the proprietary files for the Motorola Triumph so you don't have
+to pull them from your phone.
+
+After doing a repo sync, please run the extract-files.sh script to copy the files
+to the final location in your build environment.
+
+type:
+
+cd <your working directory>/device/motorola/triumph
+sh ./extract-files.sh
