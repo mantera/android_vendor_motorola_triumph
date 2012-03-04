@@ -74,12 +74,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libgemini.so:/system/lib/libgemini.so
 
 # egl
-PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
-    vendor/motorola/triumph/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/motorola/triumph/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
-    vendor/motorola/triumph/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
-    vendor/motorola/triumph/proprietary/libgsl.so:/system/lib/libgsl.so
+#PRODUCT_COPY_FILES += \
+#    vendor/motorola/triumph/proprietary/libEGL_adreno200.so:/system/lib/egl/libEGL_adreno200.so \
+#    vendor/motorola/triumph/proprietary/libGLESv1_CM_adreno200.so:/system/lib/egl/libGLESv1_CM_adreno200.so \
+#    vendor/motorola/triumph/proprietary/libGLESv2_adreno200.so:/system/lib/egl/libGLESv2_adreno200.so \
+#    vendor/motorola/triumph/proprietary/libq3dtools_adreno200.so:/system/lib/egl/libq3dtools_adreno200.so \
+#    vendor/motorola/triumph/proprietary/libgsl.so:/system/lib/libgsl.so
 
 # Audio
 PRODUCT_COPY_FILES += \
