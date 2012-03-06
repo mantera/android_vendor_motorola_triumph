@@ -36,8 +36,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/port-bridge:/system/bin/port-bridge \
     vendor/motorola/triumph/proprietary/wpdiagd:/system/bin/wpdiagd \
     vendor/motorola/triumph/proprietary/btwlancoex:/system/bin/btwlancoex \
-    vendor/motorola/triumph/proprietary/hdmid:/system/bin/hdmid \
     vendor/motorola/triumph/proprietary/cnd:/system/bin/cnd
+#    vendor/motorola/triumph/proprietary/hdmid:/system/bin/hdmid \
 
 # MM
 PRODUCT_COPY_FILES += \
